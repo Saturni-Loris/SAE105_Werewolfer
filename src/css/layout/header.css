@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+.header__texte{
+  color: var(--gris);
+  text-decoration: none;
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-size: var(--logo);
+  font-display: swap;
+  text-align: center;
+  margin-top: -41px;
+  margin-right: 10px;
+  }
+
+  .header__logo{
+  height: 50px;
+  width: 50px;
+  margin-left: -20px;
+  position: absolute;
+  right: 300px;
+  top: 25px;
+
+  }
+
+
+  header, body, html{
+    width: 100%;
+    height: 100%;
+    background-color: var(--fond);
+    color: var(--gris);
+  }
+
+  .header__index{
+    background: url(/img/Fond_header.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .header__homme__envers{
+    background: url(/img/homme_envers.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .header__lupin{
+    background: url(/img/werewolf_vinci.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .header__contact{
+    background: url(/img/lune.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+.wrapper{
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding-bottom:330px;
+  color: var(--gris);
+  text-decoration: none;
+  font-family: 'El Messiri';
+  
+}
+
+.content{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+  
+.trait__haut{
+  border-top: 2px solid var(--gris);
+  margin-left: -15px;
+  margin-right: 190px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.trait__bas{
+  border-top: 2px solid var(--gris);
+  margin-left: 190px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.auteur{
+  font-weight: unset;
+  font-size: var(--thomas-hob);
+  margin-top: -10px;
+  margin-right: -100px;
+}
+

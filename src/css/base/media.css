@@ -1,0 +1,42 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px var(--space1x);
+  }
+
+  .header__logo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px var(--space1x);
+  }
+
+  .alpes{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .alpes__description{
+      position: absolute;
+      right: 25px;
+      top: 2400px;
+      right: 50px;
+  }
+
+  .img__louve{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .img__harry{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: -100px;
+  }
